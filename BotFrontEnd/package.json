@@ -8,8 +8,11 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.0",
+<<<<<<< HEAD
     "eslint": "^8.10.0",
     "eslint-config-react-app": "6",
+=======
+>>>>>>> 67283c443deeb733ed6029479012aa67a53cfed4
     "material-table": "^1.69.3",
     "rc-table": "^7.23.0",
     "react": "^17.0.2",
@@ -27,8 +30,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
+<<<<<<< HEAD
     ],
     "parser": "react-scripts/node_modules/babel-eslint"
+=======
+    ]
+>>>>>>> 67283c443deeb733ed6029479012aa67a53cfed4
   },
   "browserslist": {
     "production": [

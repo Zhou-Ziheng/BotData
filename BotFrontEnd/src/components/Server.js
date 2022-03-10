@@ -11,9 +11,20 @@ const Server = ({server}) => {
   }, [])
 
 
+<<<<<<< HEAD
   const fetchStuff = async () => {
     var res = await axios.get('https://my-discord-bot-data.herokuapp.com/login/servers/'+server.server_id+'/');
      setServerData(res.data.data)
+=======
+  const fetchStuff = () => {
+    axios.get('https://my-discord-bot-data.herokuapp.com/login/servers/'+server.server_id+'/')
+      .then((res) => {
+        setServerData(res.data.data)
+      })
+      .then(function () {
+        // always executed
+      });
+>>>>>>> 67283c443deeb733ed6029479012aa67a53cfed4
   }
 
   const name = server.Name
