@@ -1,0 +1,3 @@
+cd venv
+cd mysite
+web: gunicorn mysite.wsgi
